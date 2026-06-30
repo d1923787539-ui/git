@@ -1,0 +1,298 @@
+﻿# ====================
+# OS 生成的文件
+# ====================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+*.db
+*.db-shm
+*.db-wal
+.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Spotlight-V100
+.Trashes
+ehthumbs.db
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# ====================
+# IDE / 编辑器
+# ====================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains (IntelliJ, WebStorm, PyCharm, GoLand, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+*.un~
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.project
+.classpath
+.settings/
+*.prefs
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ====================
+# 版本控制系统
+# ====================
+.svn/
+.svnignore
+_CVS/
+CVS/
+.cvsignore
+
+# ====================
+# 编程语言 - Node / JavaScript
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+.pnpm-debug.log*
+.lerna/
+.eslintcache
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+dist/
+build/
+
+# ====================
+# 编程语言 - Python
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+virtualenv/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg
+
+# ====================
+# 编程语言 - Java / JVM
+# ====================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+target/
+.apt_generated/
+.classpath
+.factorypath
+.settings/
+.springBeans
+sts-temp.ua
+
+# ====================
+# 编程语言 - Go
+# ====================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work
+
+# ====================
+# 编程语言 - Rust
+# ====================
+target/
+**/*.rs.bk
+Cargo.lock
+
+# ====================
+# 编程语言 - C / C++
+# ====================
+*.obj
+*.o
+*.a
+*.lib
+*.la
+*.lo
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.pdb
+*.ilk
+*.exp
+*.sbr
+
+# ====================
+# 项目依赖 & 包
+# ====================
+vendor/
+.bundle/
+jars/
+lib/
+
+# ====================
+# Docker
+# ====================
+.docker/
+docker-compose.override.yml
+
+# ====================
+# 环境变量 & 密钥
+# ====================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.pem
+*.key
+*.cert
+config.json
+credentials.json
+service-account.json
+
+# ====================
+# 日志 & 临时文件
+# ====================
+*.log
+logs/
+log/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# ====================
+# 压缩包 / 镜像
+# ====================
+*.iso
+*.dmg
+*.msi
+*.pkg
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# ====================
+# 数据库
+# ====================
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+*.mdf
+*.ldf
+
+# ====================
+# 文档生成
+# ====================
+*.pdf
+doc/api/
+site/
+
+# ====================
+# 测试与覆盖率
+# ====================
+coverage/
+.coverage*
+htmlcov/
+*.lcov
+.nyc_output/
+junit/
+test-results/
+*.test.js
+*.spec.js
+
+# ====================
+# CI / CD
+# ====================
+.travis.yml
+.gitlab-ci.yml
+circle.yml
+.ci/
